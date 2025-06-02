@@ -8805,8 +8805,8 @@ const Hu = (a, e, t, r) =>
       name: `image${n + 1}`,
       path: `${a}/${e}(${n + 1}).${t}`,
     })),
-  Yc = Hu("../assets/images-sequence/final", "SuperFile_", "jpg", 526),
-  qc = Hu("../assets/images-sequence/mobile", "SuperFile_", "jpg", 530);
+  Yc = Hu("../assets/images-sequence/final", "SUPERFile_", "jpg", 526),
+  qc = Hu("../assets/images-sequence/mobile", "SUPERFile_", "jpg", 530);
 class bo {
   constructor() {
     (this.callbacks = {}), (this.callbacks.base = {});

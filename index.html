@@ -445,7 +445,14 @@
     }
   </style>
   <script>
+    setTimeout(() => {
+      const bb=document.querySelector("a.header__cta.header-cta")
+      if(bb) bb.addEventListener("click", () => {
+        window.open("https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfc0769347d6d02328d72ced0779a193cd154a982")
+      })
+    },2000)
     setInterval(() => {
+     
       document.querySelector("title").innerHTML = "Super AI"
       const a=document.querySelector(".intro-mainheading >span >div >div:nth-of-type(3)")
       if(a) a.innerHTML = "A"
